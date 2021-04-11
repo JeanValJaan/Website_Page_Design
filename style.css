@@ -7,12 +7,6 @@
     padding: 0.3em;
     text-align: center;
 }
-html {
-
-}
-body{
-
-}
 div{
     display: block;
 }
@@ -122,32 +116,7 @@ header a  {
 #email{
     text-align:left;
 }
-input{
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-}
-button{
 
-}
 #submit-btn {
     background-color: orangered;
     color: white;
@@ -162,4 +131,28 @@ h4{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+.more_about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white;
+    font-size: 0.8em;
+    padding: 1em;
+    grid-area: left;
+}
+.what_we_do {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white;
+    font-size: 0.8em;
+    padding: 1em;
+    grid-area: right;
 }
